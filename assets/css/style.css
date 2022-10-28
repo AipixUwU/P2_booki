@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Raleway:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400");
 @import "root.css";
 
 body{
@@ -64,13 +64,12 @@ nav{
 }
 
 #search-box{
-
     display: flex;
     width: 320px;
     height: 45px;
     align-items: center;
-    /* margin: initial; */
 }
+
 #search-button{
     background: #0065FC;
     border: 1px solid #0065FC;
@@ -79,18 +78,18 @@ nav{
     color: white;
     font-weight: 700;
     font-size: 14px;
+    cursor: pointer;
     margin: initial;
 }
 
 .text-container h1{
-
     font-size: 22px;
     font-weight: 700;
     line-height: 30px;
     margin-top: 40px;
     margin-bottom: 5px;
-
 }
+
 .text-container p{
     margin: 0;
 }
@@ -115,15 +114,13 @@ form{
     margin-top: 15px;
 }
 
-
-
+            /* FILTERS */
 
 #filters-section {
     display: flex;
     align-items: center;
     font-weight: bold;
     margin-top: 25px;
-
 }
 
 #filters {
@@ -136,6 +133,7 @@ form{
     border-radius: 25px;
     padding: 10px 15px; 
     margin-right: 35px;
+    font-size: 17px;
 }
 
 .filters:hover {
@@ -143,6 +141,31 @@ form{
     cursor: pointer;
 }
 
+#filters .filters i {
+    color: var(--blue);
+    margin-right: 10px;
+}
 
+#info{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 
+#text{
+    font-size: 16px;
+}
 
+#info-logo{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--grey);
+    margin-right: 10px;
+}
+#info-logo i{
+    margin-left: 12px;
+    margin-top: 5px;
+    color: var(--blue)
+}
