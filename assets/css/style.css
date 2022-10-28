@@ -164,8 +164,85 @@ form{
     border: 1px solid var(--grey);
     margin-right: 10px;
 }
+
 #info-logo i{
     margin-left: 12px;
     margin-top: 5px;
     color: var(--blue)
 }
+
+            /* MAIN */
+
+
+
+#container-house{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 42px 40px;
+    width: 845px;
+    height: 630px;   
+}
+
+#container-house h2{
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.container-box a{
+    text-decoration: none;
+    color:black;
+}
+
+.container-box img{
+    width: 255px;
+    height: 125px;
+    object-fit: cover;
+}
+
+.container-box p,.container-box h3 {
+    margin: 0px;
+}
+
+
+.stars i{
+    width: 12px;
+    height: 12px;
+    color: var(--blue);
+    margin: 0 1px;
+}
+
+.container-picture{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.container-box{
+    padding: 4px 4px 10px 4px;
+    background-color: white;
+    border-radius: 20px;
+    /* box-shadow: black 0.1px 1px 10px; */
+
+}
+
+.img-house img {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.house-text{
+    margin-left: 7px;
+}
+
+.house-text h3{
+    font-size: 16px;
+    margin-top: 4px;
+}
+
+.house-text p{
+    font-size: 14px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+
+
+
