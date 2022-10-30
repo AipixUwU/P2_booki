@@ -1,0 +1,41 @@
+@media screen and (max-width: 1250px){
+
+
+        /* Hébergements à Marseille */
+
+#container{
+    display: initial;   
+}
+
+#container-house{
+    width: 100%;
+}
+
+        /* Les plus populaires */
+
+#popular{
+    margin: 50px 0 0 0;
+    width: 100%;
+}
+
+#popular-container-all{
+    display: flex;
+    justify-content: space-between;   
+}
+
+.popular-container{
+    width: 30%;
+}
+
+.popular-house img{
+    height: 180px;
+}
+
+        /* Activités à Marseille */
+
+
+
+
+
+
+}
