@@ -40,6 +40,7 @@ nav{
 
 #nav-section .actif {
     border-top: solid 2px #0065FC;
+    font-weight: 500;
 }
 
 #nav-section .actif a {
@@ -107,14 +108,15 @@ input{
     font-weight: bold;
     color:black;
     padding: 10px;
-    margin: initial;  
+    margin: initial; 
+    font-size: 18px; 
 }
 
 form{
     margin-top: 15px;
 }
 
-            /* FILTERS */
+                    /* FILTERS */
 
 #filters-section {
     display: flex;
@@ -149,8 +151,8 @@ form{
 #info{
     display: flex;
     align-items: center;
-    margin-top: 40px;
-    margin-bottom: 30px;
+    margin-top: 35px;
+    margin-bottom: 25px;
 }
 
 #text{
@@ -171,7 +173,7 @@ form{
     color: var(--blue)
 }
 
-            /* HEBERGEMENTS */
+                    /* HEBERGEMENTS */
 
 #container-house{
     background-color: #F2F2F2;
@@ -268,14 +270,14 @@ a {
     width: 30%;
 }
 
-#popular-house img{
+.popular-house img{
     width: 140px;
     height: 145px;
     object-fit: cover;
     border-radius: 20px 0px 0px 20px;
 }
 
-#popular-house{
+.popular-house{
     display: flex;
 
 }
@@ -320,4 +322,64 @@ a {
 #popular-icon h2{
     margin: 0;
     font-size: 22px;
+}
+
+                        /* Activity */
+
+#activity-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#activity{
+    border-radius: 20px;
+    padding: 42px 40px;  
+}
+
+.activity-box, .activity-box img{
+    width: 300px;
+    height: 445px;
+    border-radius: 20px 20px 0 0;
+}
+
+.activity-box{
+    box-shadow: rgb(0 0 0 / 10%) 4px 3px 10px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.activity-box img{
+    object-fit: cover;
+    height: 390px;
+}
+
+.activity-box p{
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+                        /* FOOTER */
+
+footer{
+    background-color: var(--grey);
+}
+
+#footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 70px ;
+    width: 70%;
+}
+
+.footer-item h2{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-item ul{
+    padding: 0;
+}
+.footer-item li{
+    margin-bottom: 10px;
+    cursor: pointer;
 }
