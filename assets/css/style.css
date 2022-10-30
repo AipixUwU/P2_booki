@@ -57,7 +57,7 @@ nav{
 
 #location{
     width: 14px;
-    height: 18px;
+    height: 21px;
     border: 1px solid #F2F2F2;
     background-color: #F2F2F2;
     padding: 10px;
@@ -73,7 +73,7 @@ nav{
 
 #search-button{
     background: #0065FC;
-    border: 1px solid #0065FC;
+    border: 3px solid #0065FC;
     border-radius: 0px 15px 15px 0px;
     padding: 10px 10px;
     color: white;
@@ -81,6 +81,7 @@ nav{
     font-size: 14px;
     cursor: pointer;
     margin: initial;
+
 }
 
 .text-container h1{
@@ -195,7 +196,7 @@ a {
 
 .container-box img{
     width: 100%;
-    height: 125px;
+    height: 165px;
     object-fit: cover;
 }
 
@@ -272,7 +273,7 @@ a {
 
 .popular-house img{
     width: 140px;
-    height: 145px;
+    height: 160px;
     object-fit: cover;
     border-radius: 20px 0px 0px 20px;
 }
@@ -311,6 +312,7 @@ a {
     display: flex;
     align-items: center;
     margin-bottom:26px ;
+    justify-content: space-between;
 }
 
 #popular-icon i{
@@ -333,12 +335,12 @@ a {
 
 #activity{
     border-radius: 20px;
-    padding: 42px 40px;  
+    padding: 40px 0;  
 }
 
 .activity-box, .activity-box img{
-    width: 300px;
-    height: 445px;
+    width: 400px;
+    height: 500px;
     border-radius: 20px 20px 0 0;
 }
 
@@ -349,13 +351,14 @@ a {
 
 .activity-box img{
     object-fit: cover;
-    height: 390px;
+    height: 450px;
 }
 
-.activity-box p{
-    padding-left: 20px;
+.activity-box p{   
     font-size: 16px;
     font-weight: bold;
+    margin: 0;
+    padding: 12px 0 15px 20px;
 }
 
                         /* FOOTER */
