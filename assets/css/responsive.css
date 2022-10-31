@@ -8,14 +8,14 @@
 }
 
 #container-house{
-    width: 100%;
+    width: 93%;
 }
 
         /* Les plus populaires */
 
 #popular{
     margin: 50px 0 0 0;
-    width: 100%;
+    width: 93.20%;
 }
 
 #popular-container-all{
@@ -33,9 +33,18 @@
 
         /* Activités à Marseille */
 
+.activity-box {
+    height: 100%;
+    width: 100%;
+}
 
+.activity-box img {
+    height: 280px;
+    width: 100%;  
+}
 
-
-
+#activity-container{
+    gap: 50px;
+}
 
 }
