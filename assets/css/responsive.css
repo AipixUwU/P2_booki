@@ -1,10 +1,21 @@
+@import "root.css";
+
+/**
+
+1024 Tablette
+992 Alternative
+768 Mobile
+320 Mobile
+
+**/
+
 @media screen and (max-width: 1250px){
 
 
         /* Hébergements à Marseille */
 
 #container{
-    display: initial;   
+    flex-direction: column;  
 }
 
 #container-house{
@@ -45,6 +56,71 @@
 
 #activity-container{
     gap: 50px;
+}
+
+}
+
+            /* MOBILE */
+
+@media screen and (max-width: 425px){
+
+body{
+    margin: 0;
+    padding: 0 20px;
+}
+
+nav{
+    display: initial;
+}
+
+#search-text {
+    display: none;
+}
+
+#search-icon {
+    display: initial;
+}
+
+#logo{
+    margin-left: 180px;
+}
+
+#nav-section .actif{
+    border: none;
+    border-bottom: 2px solid var(--blue);
+    padding-bottom: 20px;
+}
+
+#search-box i{
+    display: initial;
+}
+
+#filters{
+    margin-left: inherit;
+    flex-wrap: wrap;
+
+}
+
+#filters-section {
+    display: initial;
+}
+.filters-text {
+    font-size: 11px;
+}
+
+#filters-section p{
+    font-size: 18px;
+}
+
+.filters{
+    display: flex;
+    align-items: center;
+    /* margin-right: 40px; */
+}
+
+#container{
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 }

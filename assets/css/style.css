@@ -81,7 +81,10 @@ nav{
     font-size: 14px;
     cursor: pointer;
     margin: initial;
+}
 
+#search-icon {
+    display: none;
 }
 
 .text-container h1{
