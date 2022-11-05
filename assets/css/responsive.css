@@ -66,11 +66,14 @@
 
 body{
     margin: 0;
-    padding: 0 20px;
 }
 
 nav{
     display: initial;
+}
+
+header{
+    padding: 0 20px;
 }
 
 #search-text {
@@ -95,10 +98,11 @@ nav{
     display: initial;
 }
 
-#filters{
+#filters {
     margin-left: inherit;
     flex-wrap: wrap;
-
+    justify-content: center;
+    gap: 10px 25px;
 }
 
 #filters-section {
@@ -115,12 +119,70 @@ nav{
 .filters{
     display: flex;
     align-items: center;
-    /* margin-right: 40px; */
+    width: 35%;
+    margin: inherit;
+}
+
+.container-picture{
+    display: flex;
+    flex-direction: column;
+}
+
+#popular-container-all{
+    display: flex;
+    flex-direction: column;
 }
 
 #container{
-    display: flex;
     flex-direction: column-reverse;
 }
 
+.popular-container {
+    width: 100%;
+}
+
+#activity-container{
+    flex-direction: column;
+}
+
+#activity-container {
+    gap: 40px;
+}
+
+.activity-box img {
+    height: 165px;
+    width: 100%;
+}
+#container-house{
+    background-color: inherit;
+    padding: 0;
+}
+
+#footer-container{
+    flex-direction: column;
+}
+
+#container-house {
+    width: 100%;
+}
+
+#popular{
+    padding: 0;
+    width: 100%;
+}
+
+.container-box{
+    padding: 0;
+}
+
+#popular-icon i {
+    margin: 0;
+}
+
+.popular-container{
+    padding: inherit
+}
+
+}#footer-container{
+    width: inherit;
 }
