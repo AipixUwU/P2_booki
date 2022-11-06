@@ -88,13 +88,13 @@ header{
     margin-left: 180px;
 }
 
-#nav-section .actif{
+#nav-section .actif {
     border: none;
     border-bottom: 2px solid var(--blue);
     padding-bottom: 20px;
 }
 
-#search-box i{
+#search-box i {
     display: initial;
 }
 
@@ -108,32 +108,35 @@ header{
 #filters-section {
     display: initial;
 }
+
 .filters-text {
     font-size: 11px;
 }
 
-#filters-section p{
+#filters-section p {
     font-size: 18px;
 }
 
-.filters{
+.filters {
     display: flex;
     align-items: center;
     width: 35%;
     margin: inherit;
 }
 
-.container-picture{
+.container-picture {
     display: flex;
     flex-direction: column;
+    margin: 0 20px;
 }
 
-#popular-container-all{
+#popular-container-all {
     display: flex;
     flex-direction: column;
+    margin: 0 20px;
 }
 
-#container{
+#container {
     flex-direction: column-reverse;
 }
 
@@ -141,37 +144,40 @@ header{
     width: 100%;
 }
 
-#activity-container{
+#activity-container {
     flex-direction: column;
 }
 
 #activity-container {
     gap: 40px;
+    margin: 0 20px;
 }
 
 .activity-box img {
     height: 165px;
     width: 100%;
 }
-#container-house{
+#container-house {
     background-color: inherit;
     padding: 0;
+    width: 100%;
 }
 
-#footer-container{
+#container-house h2 {
+    margin: 25px 20px;
+}
+
+#footer-container {
     flex-direction: column;
 }
 
-#container-house {
-    width: 100%;
-}
-
-#popular{
+#popular {
     padding: 0;
     width: 100%;
+    margin-top: inherit;
 }
 
-.container-box{
+.container-box {
     padding: 0;
 }
 
@@ -179,10 +185,50 @@ header{
     margin: 0;
 }
 
-.popular-container{
+.popular-container {
     padding: inherit
 }
 
-}#footer-container{
+#footer-container {
     width: inherit;
+}
+
+#popular {
+    border-radius: inherit; 
+}
+
+.popular-house img {
+    height: 150px;
+    padding: 3px;
+}
+
+#popular-icon h2 {
+    margin: 30px 0 0 20px;
+}
+
+#popular-icon i {
+    margin: 30px 20px 0 0;
+}
+.view-more {
+    display:none
+}
+
+#activity h2 {
+
+    margin: 5px 20px;
+}
+
+#activity {
+    margin-bottom: 30px;
+}
+
+#footer-container {
+
+    padding: 40px 0 0 30px;
+}
+
+.img-house {
+    padding: 3px
+}
+
 }
