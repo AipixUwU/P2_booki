@@ -9,234 +9,418 @@
 
 **/
 
+
+@media screen and (max-width: 1440px){
+
+    .activity-box img {
+       height: 400px;
+    }
+   
+   .activity-box, .activity-box img {
+       width: 300px;
+    }
+}
+
 @media screen and (max-width: 1250px){
 
 
         /* Hébergements à Marseille */
 
-#container{
-    flex-direction: column;  
+    #container{
+        flex-direction: column;  
+    }
+
+    #container-house{
+        width: 93%;
+    }
+
+            /* Les plus populaires */
+
+    #popular{
+        margin: 50px 0 0 0;
+        width: 93.20%;
+    }
+
+    #popular-container-all{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .popular-container{
+        width: 30%;
+    }
+
+    .popular-house img{
+        height: 180px;
+    }
+
+            /* Activités à Marseille */
+
+    .activity-box {
+        height: 100%;
+        width: 100%;
+    }
+
+    .activity-box img {
+        height: 280px;
+        width: 100%;  
+    }
+
+    #activity-container{
+        gap: 50px;
+    }
 }
 
-#container-house{
-    width: 93%;
+
+
+
+@media screen and (max-width: 768px){
+
+    body{
+        margin: 0;
+    }
+    
+    nav{
+        flex-direction: column;
+    }
+    
+    header{
+        padding: 0 20px;
+    }
+  
+    #search-icon {
+        display: none;
+    }
+    
+    #logo{
+        margin: auto;
+    }
+    
+    #nav-section .actif {
+        border: none;
+        border-bottom: 2px solid var(--blue);
+        padding-bottom: 20px;
+    }
+    
+    #search-box i {
+        display: initial;
+    }
+    
+    #filters {
+        margin-left: inherit;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 25px;
+    }
+    
+    #filters-section {
+        display: initial;
+    }
+    
+    .filters-text {
+        font-size: 11px;
+    }
+    
+    #filters-section p {
+        font-size: 18px;
+    }
+    
+    .filters {
+        display: flex;
+        align-items: center;
+        width: 40%;
+        margin: inherit;
+    }
+    
+    .container-picture {
+        margin: 0 20px;
+    }
+    
+    #popular-container-all {
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px;
+    }
+    
+    #container {
+        flex-direction: column-reverse;
+    }
+    
+    .popular-container {
+        width: 100%;
+    }
+    
+    #activity-container {
+        gap: 40px;
+        margin: 0 20px;
+        flex-wrap: wrap;
+    }
+    
+    .activity-box img {
+        height: 165px;
+        width: 100%;
+    }
+    #container-house {
+        background-color: inherit;
+        padding: 0;
+        width: 100%;
+    }
+    
+    #container-house h2 {
+        margin: 25px 20px;
+    }
+    
+    #popular {
+        padding: 0;
+        width: 100%;
+        margin-top: inherit;
+    }
+    
+    .container-box {
+        padding: 0;
+    }
+    
+    #popular-icon i {
+        margin: 0;
+    }
+    
+    .popular-container {
+        padding: inherit
+    }
+    
+    #footer-container {
+        width: inherit;
+    }
+    
+    #popular {
+        border-radius: inherit; 
+    }
+    
+    .popular-house img {
+        height: 150px;
+        padding: 3px;
+    }
+    
+    #popular-icon h2 {
+        margin: 30px 0 0 20px;
+    }
+    
+    #popular-icon i {
+        margin: 30px 20px 0 0;
+    }
+    .view-more {
+        display:none
+    }
+    
+    #activity h2 {
+    
+        margin: 5px 25px 30px 25px;
+    }
+    
+    #activity {
+        margin-bottom: 30px;
+    }
+
+    .activity-box {
+        height: 100%;
+        width: 45%;
+    }
+    
+   
+    
+    .img-house {
+        padding: 3px
+    }
 }
 
-        /* Les plus populaires */
 
-#popular{
-    margin: 50px 0 0 0;
-    width: 93.20%;
-}
 
-#popular-container-all{
-    display: flex;
-    justify-content: space-between;   
-}
 
-.popular-container{
-    width: 30%;
-}
 
-.popular-house img{
-    height: 180px;
-}
-
-        /* Activités à Marseille */
-
-.activity-box {
-    height: 100%;
-    width: 100%;
-}
-
-.activity-box img {
-    height: 280px;
-    width: 100%;  
-}
-
-#activity-container{
-    gap: 50px;
-}
-
-}
-
-            /* MOBILE */
+                /* MOBILE */
 
 @media screen and (max-width: 425px){
 
-body{
-    margin: 0;
-}
-
-nav{
-    flex-direction: column;
-}
-
-#nav-section{
-    margin-top: 30px;
-    padding: 0;
-    justify-content: center;
-}
-
-#nav-section li{
-    padding: 20px 50px;
-}
-
-.text-container, header form, #info, #filters-section{
-    padding: 0 20px;
-}
-
-#filters-section{
-    flex-direction: column;
-    align-items: inherit;
-    margin: inherit;
-}
-
-#search-text {
-    display: none;
-}
-
-#search-icon {
-    display: initial;
-}
-
-#logo{
-    margin: auto
-}
-
-#nav-section .actif {
-    border: none;
-    border-bottom: 2px solid var(--blue);
-    padding-bottom: 20px;
-}
-
-#filters {
-    margin-left: inherit;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px 25px;
-}
-
-.filters-text {
-    font-size: 11px;
-}
-
-#filters-section p {
-    font-size: 18px;
-}
-
-.filters {
-    display: flex;
-    align-items: center;
-    width: 35%;
-    margin: inherit;
-}
-
-.container-picture {
-    display: flex;
-    flex-direction: column;
-    margin: 0 20px;
-}
-
-#popular-container-all {
-    display: flex;
-    flex-direction: column;
-    margin: 0 20px;
-}
-
-#container {
-    flex-direction: column-reverse;
-}
-
-.popular-container {
-    width: 100%;
-}
-
-#activity-container {
-    flex-direction: column;
-}
-
-#activity-container {
-    gap: 40px;
-    margin: 0 20px;
-}
-
-.activity-box img {
-    height: 165px;
-    width: 100%;
-}
-#container-house {
-    background-color: inherit;
-    padding: 0;
-    width: 100%;
-}
-
-#container-house h2 {
-    margin: 25px 20px;
-}
-
-#footer-container {
-    flex-direction: column;
-}
-
-#popular {
-    padding: 0;
-    width: 100%;
-    margin-top: inherit;
-}
-
-.container-box {
-    padding: 0;
-}
-
-#popular-icon i {
-    margin: 0;
-}
-
-.popular-container {
-    padding: inherit
-}
-
-#footer-container {
-    width: inherit;
-}
-
-#popular {
-    border-radius: inherit; 
-}
-
-.popular-house img {
-    height: 150px;
-    padding: 3px;
-}
-
-#popular-icon h2 {
-    margin: 25px 0 0 20px;
-}
-
-#popular-icon i {
-    margin: 30px 20px 0 0;
-}
-.view-more {
-    display:none
-}
-
-#activity h2 {
-
-    margin: 5px 20px;
-}
-
-#activity {
-    margin-bottom: 30px;
-}
-
-#footer-container {
-
-    padding: 40px 0 0 30px;
-}
-
-.img-house {
-    padding: 3px
-}
-
+    body{
+        margin: 0;
+    }
+    
+    nav{
+        flex-direction: column;
+    }
+    
+    #nav-section{
+        margin-top: 30px;
+        padding: 0;
+        justify-content: center;
+    }
+    
+    #nav-section li{
+        padding: 20px 50px;
+    }
+    
+    #nav-section li:hover{
+        border-bottom: 2px solid var(--blue);
+        border-top:inherit
+    }
+    
+    .text-container, header form, #info, #filters-section{
+        padding: 0 20px;
+    }
+    
+    #filters-section{
+        flex-direction: column;
+        align-items: inherit;
+        margin: inherit;
+    }
+    
+    #search-text {
+        display: none;
+    }
+    
+    #search-icon {
+        display: initial;
+    }
+    
+    #logo{
+        margin: auto;
+    }
+    
+    #nav-section .actif {
+        border: none;
+        border-bottom: 2px solid var(--blue);
+        padding-bottom: 20px;
+    }
+    
+    #filters {
+        margin-left: inherit;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 25px;
+    }
+    
+    .filters-text {
+        font-size: 11px;
+    }
+    
+    #filters-section p {
+        font-size: 18px;
+    }
+    
+    .filters {
+        display: flex;
+        align-items: center;
+        width: 35%;
+        margin: inherit;
+    }
+    
+    .container-picture {
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px;
+    }
+    
+    #popular-container-all {
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px;
+    }
+    
+    #container {
+        flex-direction: column-reverse;
+    }
+    
+    .popular-container {
+        width: 100%;
+    }
+    
+    #activity-container {
+        flex-direction: column;
+    }
+    
+    #activity-container {
+        gap: 40px;
+        margin: 0 20px;
+    }
+    
+    .activity-box{
+        width: inherit;
+    }
+    .activity-box img {
+        height: 165px;
+        width: 100%;
+    }
+    #container-house {
+        background-color: inherit;
+        padding: 0;
+        width: 100%;
+    }
+    
+    #container-house h2 {
+        margin: 25px 20px;
+    }
+    
+    #footer-container {
+        flex-direction: column;
+    }
+    
+    #popular {
+        padding: 0;
+        width: 100%;
+        margin-top: inherit;
+    }
+    
+    .container-box {
+        padding: 0;
+    }
+    
+    #popular-icon i {
+        margin: 0;
+    }
+    
+    .popular-container {
+        padding: inherit
+    }
+    
+    #footer-container {
+        width: inherit;
+    }
+    
+    #popular {
+        border-radius: inherit; 
+    }
+    
+    .popular-house img {
+        height: 150px;
+        padding: 3px;
+    }
+    
+    #popular-icon h2 {
+        margin: 25px 0 0 20px;
+    }
+    
+    #popular-icon i {
+        margin: 30px 20px 0 0;
+    }
+    .view-more {
+        display:none
+    }
+    
+    #activity h2 {
+    
+        margin: 5px 20px;
+    }
+    
+    #activity {
+        margin-bottom: 30px;
+    }
+    
+    #footer-container {
+    
+        padding: 40px 0 0 30px;
+    }
+    
+    .img-house {
+        padding: 3px;
+    }
 }
