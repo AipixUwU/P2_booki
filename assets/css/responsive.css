@@ -98,12 +98,15 @@
         text-align: center;
         border-bottom: 2px solid #F2F2F2;
         border-top:inherit
-        }
+    }
 
     #nav-section li:hover{
         border-bottom: 2px solid var(--blue);
         border-top: inherit;
-        }
+    }
+
+    #nav-section{
+        padding-left: inherit;
     }
     
     #search-box i {
