@@ -23,7 +23,6 @@
 
 @media screen and (max-width: 1250px){
 
-
         /* Hébergements à Marseille */
 
     #container{
@@ -71,9 +70,6 @@
     }
 }
 
-
-
-
 @media screen and (max-width: 768px){
 
     body{
@@ -84,7 +80,7 @@
         flex-direction: column;
     }
     
-    header{
+    .div-container ,form, #filters-section p, #info , .text-container{
         padding: 0 20px;
     }
   
@@ -225,11 +221,18 @@
         height: 100%;
         width: 45%;
     }
-    
-   
-    
+
     .img-house {
         padding: 3px
+    }
+
+    #nav-section li{
+        width: 49%;
+        text-align: center;
+    }
+
+    #nav-section li:hover{
+        border-top: inherit;
     }
 }
 
@@ -245,7 +248,13 @@
     }
 }
 
+@media screen and (max-width: 464px){
 
+    #filters {
+        margin-left: inherit;
+        gap: 10px 15px;
+    }
+}
                 /* MOBILE */
 
 @media screen and (max-width: 440px){
@@ -257,22 +266,33 @@
     nav{
         flex-direction: column;
     }
+
+    input{
+        width: 100%;
+    }
+
+    #search-box{
+        width: inherit;
+    }
     
     #nav-section{
-        margin-top: 30px;
+        margin-top: 20px;
         padding: 0;
-        justify-content: center;
+        width: 100%;
     }
     
     #nav-section li{
-        padding: 20px 50px;
+        width: 49%;
+        margin: inherit;
+        padding-top: inherit;
+        text-align: center;
+        border-bottom: 2px solid #F2F2F2;
     }
     
     #nav-section li:hover{
         border-bottom: 2px solid var(--blue);
         border-top:inherit
     }
-
     
     #filters-section{
         flex-direction: column;
