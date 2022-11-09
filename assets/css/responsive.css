@@ -23,8 +23,6 @@
 
 @media screen and (max-width: 1250px){
 
-        /* Hébergements à Marseille */
-
     #container{
         flex-direction: column;  
     }
@@ -32,8 +30,6 @@
     #container-house{
         width: 93%;
     }
-
-            /* Les plus populaires */
 
     #popular{
         margin: 50px 0 0 0;
@@ -52,8 +48,6 @@
     .popular-house img{
         height: 180px;
     }
-
-            /* Activités à Marseille */
 
     .activity-box {
         height: 100%;
@@ -251,21 +245,12 @@
 @media screen and (max-width: 464px){
 
     #filters {
-        margin-left: inherit;
         gap: 10px 15px;
     }
 }
                 /* MOBILE */
 
 @media screen and (max-width: 440px){
-
-    body{
-        margin: 0;
-    }
-    
-    nav{
-        flex-direction: column;
-    }
 
     input{
         width: 100%;
@@ -274,32 +259,29 @@
     #search-box{
         width: inherit;
     }
-    
+
     #nav-section{
         margin-top: 20px;
         padding: 0;
         width: 100%;
     }
-    
+
     #nav-section li{
-        width: 49%;
         margin: inherit;
         padding-top: inherit;
-        text-align: center;
         border-bottom: 2px solid #F2F2F2;
     }
-    
+
     #nav-section li:hover{
         border-bottom: 2px solid var(--blue);
-        border-top:inherit
     }
-    
+
     #filters-section{
         flex-direction: column;
         align-items: inherit;
         margin: inherit;
     }
-    
+
     #search-text {
         display: none;
     }
@@ -307,7 +289,7 @@
     #search-icon {
         display: initial;
     }
-    
+
     #logo{
         margin: auto;
     }
@@ -317,14 +299,11 @@
         border-bottom: 2px solid var(--blue);
         padding-bottom: 20px;
     }
-    
+
     #filters {
-        margin-left: inherit;
-        flex-wrap: wrap;
-        justify-content: center;
         gap: 10px 25px;
     }
-    
+
     .filters-text {
         font-size: 11px;
     }
@@ -334,10 +313,7 @@
     }
     
     .filters {
-        display: flex;
-        align-items: center;
         width: 35%;
-        margin: inherit;
     }
     
     .container-picture {
@@ -345,20 +321,6 @@
     }
 
     .container-box img {
-        width: 100%;
-    }
-    
-    #popular-container-all {
-        display: flex;
-        flex-direction: column;
-        margin: 0 20px;
-    }
-    
-    #container {
-        flex-direction: column-reverse;
-    }
-    
-    .popular-container {
         width: 100%;
     }
     
@@ -377,6 +339,7 @@
     .activity-box img {
         height: 165px;
         width: 100%;
+
     }
     #container-house {
         background-color: inherit;
@@ -398,49 +361,21 @@
         margin-top: inherit;
     }
     
-    .container-box {
-        padding: 0;
-    }
-    
-    #popular-icon i {
-        margin: 0;
-    }
-    
-    .popular-container {
-        padding: inherit
-    }
-    
     #footer-container {
         width: inherit;
     }
-    
-    #popular {
-        border-radius: inherit; 
-    }
-    
-    .popular-house img {
-        height: 150px;
-        padding: 3px;
-    }
-    
+
     #popular-icon h2 {
         margin: 25px 0 0 20px;
     }
     
-    #popular-icon i {
-        margin: 30px 20px 0 0;
-    }
     .view-more {
         display:none
     }
-    
+
     #activity h2 {
     
         margin: 5px 20px;
-    }
-    
-    #activity {
-        margin-bottom: 30px;
     }
     
     #footer-container {
