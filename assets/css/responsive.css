@@ -90,6 +90,20 @@
         border: none;
         border-bottom: 2px solid var(--blue);
         padding-bottom: 20px;
+        
+    }
+
+    #nav-section li{
+        width: 49%;
+        text-align: center;
+        border-bottom: 2px solid #F2F2F2;
+        border-top:inherit
+        }
+
+    #nav-section li:hover{
+        border-bottom: 2px solid var(--blue);
+        border-top: inherit;
+        }
     }
     
     #search-box i {
@@ -220,14 +234,9 @@
         padding: 3px
     }
 
-    #nav-section li{
-        width: 49%;
-        text-align: center;
-    }
 
-    #nav-section li:hover{
-        border-top: inherit;
-    }
+
+
 }
 
 @media screen and (max-width: 600px){
@@ -269,11 +278,6 @@
     #nav-section li{
         margin: inherit;
         padding-top: inherit;
-        border-bottom: 2px solid #F2F2F2;
-    }
-
-    #nav-section li:hover{
-        border-bottom: 2px solid var(--blue);
     }
 
     #filters-section{
@@ -292,12 +296,6 @@
 
     #logo{
         margin: auto;
-    }
-    
-    #nav-section .actif {
-        border: none;
-        border-bottom: 2px solid var(--blue);
-        padding-bottom: 20px;
     }
 
     #filters {
