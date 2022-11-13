@@ -2,10 +2,14 @@
 
 /**
 
-1024 Tablette
-992 Alternative
-768 Mobile
-320 Mobile
+Tablette    1440
+            1250
+
+
+Mobile      768
+            600
+            464
+            440
 
 **/
 
@@ -107,10 +111,6 @@
 
     #nav-section{
         padding-left: inherit;
-    }
-    
-    #search-box i {
-        display: initial;
     }
     
     #filters {
@@ -275,7 +275,6 @@
     #nav-section{
         margin-top: 20px;
         padding: 0;
-        width: 100%;
     }
 
     #nav-section li{
