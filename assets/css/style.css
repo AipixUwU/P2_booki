@@ -334,6 +334,7 @@ a {
 #activity-container{
     display: flex;
     justify-content: space-between;
+    gap: 25px;
 }
 
 #activity{
@@ -342,7 +343,7 @@ a {
 }
 
 .activity-box, .activity-box img{
-    width: 90%;
+    width: 100%;
     height: 500px;
     border-radius: 20px 20px 0 0;
 }
@@ -355,7 +356,6 @@ a {
 .activity-box img{
     object-fit: cover;
     height: 450px;
-    /* height: 100%; */
 }
 
 .activity-box p{   

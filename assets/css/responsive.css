@@ -2,22 +2,16 @@
 
 /**
 
-Tablette    1440
-            1250
+Tablette    992
 
 
 Mobile      768
-            600
-            464
-            440
+            
 
 **/
 
 
-
-
 @media screen and (max-width: 992px){
-
 
     #container{
         flex-direction: column;  
