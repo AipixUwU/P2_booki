@@ -14,18 +14,10 @@ Mobile      768
 **/
 
 
-@media screen and (max-width: 1440px){
 
-    .activity-box img {
-       height: 400px;
-    }
-   
-   .activity-box, .activity-box img {
-       width: 300px;
-    }
-}
 
-@media screen and (max-width: 1250px){
+@media screen and (max-width: 992px){
+
 
     #container{
         flex-direction: column;  
