@@ -2,13 +2,13 @@
 @import "root.css";
 
 body{
-    margin: 0px 50px;  
+    margin: 0 30px;  
     font-family: 'Raleway', sans-serif; 
 }
 
 #logo{
-    width: 61px;
-    height: 19px;
+    width: 60px;
+    height: 20px;
     padding-top: 20px;
 }
 
@@ -282,11 +282,7 @@ a {
     border-radius: 20px 0px 0px 20px;
 }
 
-.popular-house{
-    display: flex;
-
-}
-#popular a{
+.popular-house, #popular a{
     display: flex;
 }
 

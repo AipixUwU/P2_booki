@@ -13,27 +13,41 @@ Mobile      768
 
 @media screen and (max-width: 992px){
 
+    body {
+        margin: 0 20px;
+    }
+
     #container{
-        flex-direction: column;  
+        flex-direction: column;
     }
 
     #container-house{
-        width: 93%;
+        width: auto;
     }
+
+    .filters {
+        margin-right: 10px;
+        font-size: 0.9em;
+      }
 
     #popular{
         margin: 50px 0 0 0;
-        width: 93.20%;
+        width: auto;
     }
 
     #popular-container-all{
         display: flex;
         justify-content: space-between;
-        flex-direction: column;
+    }
+
+    .popular-container {
+        flex: 1 1 33%;
+        margin-right: 10px;
+        max-width: 260px;
     }
 
     .popular-house img{
-        height: 180px;
+        width: 80px;
     }
 
     .activity-box {
@@ -47,7 +61,11 @@ Mobile      768
     }
 
     #activity-container{
-        gap: 50px;
+        gap: 10px;
+    }
+
+    .activity-box p {
+        font-size: 14px;
     }
 }
 
@@ -64,10 +82,23 @@ Mobile      768
     .div-container ,form, #filters-section p, #info , .text-container{
         padding: 0 20px;
     }
+
+    input {
+        font-size: 14px;
+    }
+
+    #search-button {
+        padding: 8px;
+    }
+
+    #location {
+        height: 18px;
+        padding: 9px;
+    }
   
     #search-icon {
         display: initial;
-        }
+    }
 
     
     #logo{
@@ -100,8 +131,9 @@ Mobile      768
     #filters {
         margin-left: inherit;
         flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px 25px;
+        justify-content: left;
+        gap: 10px 10px;
+        padding: 0 20px
     }
     
     #filters-section {
@@ -140,7 +172,7 @@ Mobile      768
     }
     
     .popular-container {
-        width: 100%;
+        max-width: 100%;
     }
     
     #activity-container {
@@ -193,6 +225,7 @@ Mobile      768
     
     .popular-house img {
         height: 150px;
+        width: 110px;
         padding: 3px;
     }
     
@@ -236,7 +269,7 @@ Mobile      768
     }
 
     .filters {
-        width: 35%;
+        width: 33%;
     }
 
     .filters-text {
