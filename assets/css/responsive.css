@@ -29,10 +29,7 @@ Mobile      768
     #popular-container-all{
         display: flex;
         justify-content: space-between;
-    }
-
-    .popular-container{
-        width: 30%;
+        flex-direction: column;
     }
 
     .popular-house img{

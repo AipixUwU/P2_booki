@@ -131,7 +131,8 @@ form{
 
 #filters {
     display: flex;
-    margin-left: 30px;
+    margin-left: 20px;
+    flex-wrap: wrap;
 }
 
 .filters {
